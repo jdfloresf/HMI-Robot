@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/camera.svg</file>
+    <file>icons/align-justify.svg</file>
+    <file>icons/align-left.svg</file>
+    <file>icons/bell.svg</file>
+    <file>icons/chevron-left.svg</file>
+    <file>icons/computer.svg</file>
+    <file>icons/copy.svg</file>
+    <file>icons/cross.svg</file>
+    <file>icons/grin.svg</file>
+    <file>icons/info.svg</file>
+    <file>icons/interrogation.svg</file>
+    <file>icons/list.svg</file>
+    <file>icons/menu-burger.svg</file>
+    <file>icons/menu-dots.svg</file>
+    <file>icons/minus.svg</file>
+    <file>icons/print.svg</file>
+    <file>icons/rectangle-xmark.svg</file>
+    <file>icons/settings.svg</file>
+    <file>icons/square.svg</file>
+    <file>icons/user.svg</file>
+    <file>icons/x-circle.svg</file>
+  </qresource>
+  <qresource prefix="images">
+    <file>logo1.png</file>
+  </qresource>
+</RCC>

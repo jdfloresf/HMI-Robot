@@ -1,0 +1,266 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"Robot",
+			"icon":":/images/logo.png",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+					"minimize":"minimizeBtn",
+					"close": "closeBtn",
+					"restore":[
+						{	
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/copy.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+	"QCustomSlideMenu": [
+		{
+			"name": "leftMenuContainer",
+			"defaultSize": [{
+				"width": 45,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 45,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 150,
+				"height": "parent"
+			}],
+			"toggleButton": [{
+				"buttonName": "menuBtn",
+				"icons": [{
+					"whenMenuIsCollapsed": ":/icons/icons/align-justify.svg",
+					"whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+				}]
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+
+		{
+			"name": "centerMenuContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "parent"
+			}],
+			"expandedSize": [{
+				"width": 200,
+				"height": "parent"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+
+		{
+			"name": "rightMenuContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 200,
+				"height": "auto"
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}]
+		},
+
+		{
+			"name": "popupNotificationContainer",
+			"defaultSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"collapsedSize": [{
+				"width": 0,
+				"height": "auto"
+			}],
+			"expandedSize": [{
+				"width": 500,
+				"height": 150
+			}],
+			"menuTransitionAnimation": [{
+				"animationDuration": 500,
+				"animationEasingCurve": "Linear"
+			}],
+			"floatPosition": [
+				{
+					"relativeTo": "centralwidget",
+					"position": "bottom-center",
+					"shadow":[
+						{
+							"color": "#000",
+							"blurRadius": 20,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+			"toggleButton": [{
+				"buttonName": "notificationBtn"
+			}]
+		}
+	],
+
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeBtn": "page_6",
+							"dataBtn": "page_7",
+							"reportsBtn": "page_8"
+						}
+					]
+				}
+			]
+	
+		},
+
+		{
+			"name":"centerMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"settingsBtn": "page_1",
+							"infoBtn": "page_2",
+							"helpBtn": "page_3"
+						}
+					]
+				}
+			]
+		
+		},
+
+		{
+			"name":"rightMenuPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"moreMenuBtn": "page_5",
+							"profileMenuBtn": "page_4"
+						}
+					]
+				}
+			]
+		
+		}
+	],
+
+	"QPushButtonGroup": [
+		{
+			"Buttons": [
+				"homeBtn",
+				"dataBtn",
+				"reportsBtn"
+			],
+			"Style":[
+				{
+					"Active": "background-color: #1f232a;",
+					"NotActive": ""
+				}
+			]
+		},
+
+		{
+			"Buttons": [
+				"settingsBtn",
+				"infoBtn",
+				"helpBtn"
+			],
+			"Style":[
+				{
+					"Active": "background-color: #2c313c;",
+					"NotActive": ""
+				}
+			]
+		}
+	],
+
+	"AnalogGaugeWidget": [{
+		"name": "analog",
+		"units": "Km/h",
+		"minValue": "0",
+		"maxValue": "100",
+		"scalaCount": "10",
+		"startValue": "1",
+		"gaugeTheme": "8",
+		"offsetAngle": "0",
+		"outerRadius": "1000",
+		"innerRadius": "900",
+		"scaleStartAngle": "135",
+		"totalScaleAngle": "270",
+		"enableBarGraph": true,
+		"enableValueText": true,
+		"enableCenterPoint": true,
+		"enableNeedlePolygon": true,
+		"enableScaleText": true,
+		"enableScaleBigGrid": true,
+		"enableScaleFineGrid": true,
+		"needleColor": "#002523",
+		"needleColorOnDrag": "red",
+		"scaleValueColor": "#fff",
+		"displayValueColor": "#00F6E9",
+		"bigScaleColor" : "#005275",
+		"fineScaleColor" : "#005275",
+		"customGaugeTheme": [{
+			"color1": "#002523",
+			"color2": "#990008",
+			"color3": "#00F6E9"
+		}],
+		"scalePolygonColor": [{
+			"color1": "#002523",
+			"color2": "#990008",
+			"color3": "#00F6E9"
+		}],
+		"needleCenterColor": [{
+			"color1": "#002523",
+			"color2": "#990008",
+			"color3": "#00F6E9"
+		}],
+		"outerCircleColor": [{
+			"color1": "#002523",
+			"color2": "#0000",
+			"color3": "#00F6E9"
+		}],
+		"valueFontFamily": [{
+			"path": "fonts/ds_digital/DS-DIGIB.TTF",
+			"name": "DS-Digital"
+		}],
+		"scaleFontFamily": [{
+			"path": "fonts/ds_digital/DS-DIGIB.TTF",
+			"name": "DS-Digital"
+		}]
+	}]
+}
