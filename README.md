@@ -23,10 +23,13 @@ La interfaz de usuario fue diseñada y desarrollada utilizando Qt Designer, una 
 
 ## **Uso**
 Para utilizar esta versión de la interfaz de usuario, asegúrate de estar en un entorno virtual y tener instaladas las librerías mencionadas. Puedes instalarlas utilizando pip:
+
 ```pip install PyQt5 PySide2 QT-PyQt-PySide-Custom-Widgets```
 
 
 ## Recursos Adicionales
 [Documentación de Qt Designer](https://doc.qt.io/qt-5/qtdesigner-manual.html): Referencia oficial para aprender a utilizar Qt Designer.
+
 [Tutorial PyQt5](https://www.pythonguis.com/pyqt5-tutorial/): Recursos para aprender más sobre PyQt5.
+
 [Qt for Python Documentation](https://doc.qt.io/qtforpython-5/contents.html): Documentación oficial de PySide2.
