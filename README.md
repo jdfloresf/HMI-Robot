@@ -1,4 +1,4 @@
-[![](https://asset.cloudinary.com/dqa2kd0vc/d61d71cd0f5a34fdbc3c7a328c30c9a8)]
+![HMI](https://asset.cloudinary.com/dqa2kd0vc/d61d71cd0f5a34fdbc3c7a328c30c9a8)
 
 
 # **HMI para Robot**
