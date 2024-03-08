@@ -11,13 +11,19 @@ La interfaz de usuario fue diseñada y desarrollada utilizando Qt Designer, una 
 - [QT-PyQt-PySide-Custom-Widgets](https://pypi.org/project/QT-PyQt-PySide-Custom-Widgets/): Este conjunto de widgets personalizados proporciona componentes adicionales que enriquecen la apariencia y funcionalidad de la interfaz.
 
 ## **Estructura del Repositorio**
-/src: Contiene el código fuente de la interfaz de usuario desarrollada en Qt Designer.
-/docs: Documentación adicional, si es necesaria.
-/resources: Recursos adicionales utilizados en la interfaz, como imágenes, iconos, etc.
+- /caras: Carpeta que contiene imágenes de caras utilizadas en la interfaz.
+- /icons: Carpeta que almacena iconos utilizados en la interfaz.
+- interfaz.py: Código fuente de la interfaz de usuario desarrollada en Qt Designer.
+- interfaz.ui: Archivo de diseño de la interfaz creado en Qt Designer.
+- logo1.png: Imagen de logo utilizada en la interfaz.
+- main.py: Archivo principal que ejecuta la aplicación.
+- resources.qrc: Archivo de recursos utilizado para la interfaz.
+- resources_rc.py: Archivo generado a partir del archivo de recursos.
+- style.json: Archivo que define las acciones de navegación y animación en la interfaz.
 
 ## **Uso**
-Para utilizar esta versión de la interfaz de usuario, asegúrate de tener instaladas las librerías mencionadas. Puedes instalarlas utilizando pip:
-``` pip install PyQt5 PySide2 QT-PyQt-PySide-Custom-Widgets```
+Para utilizar esta versión de la interfaz de usuario, asegúrate de estar en un entorno virtual y tener instaladas las librerías mencionadas. Puedes instalarlas utilizando pip:
+```pip install PyQt5 PySide2 QT-PyQt-PySide-Custom-Widgets```
 
 
 ## Recursos Adicionales
