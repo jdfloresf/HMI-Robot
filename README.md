@@ -1,4 +1,4 @@
-![HMI](https://console.cloudinary.com/console/c-3891e4fc8b451b3e94376df6da93f6/media_library/homepage/asset/2fcf0afc2fb0068815d5b21e5fbbe6b3/manage?context=manage)
+![HMI](https://res.cloudinary.com/dqa2kd0vc/image/upload/v1709919962/Screenshot_20230628_054220_yzlfrs.png)
 
 # **HMI para Robot**
 Este repositorio contiene una versión anterior de la interfaz de usuario (HMI) desarrollada como parte de mi estancia preprofesional en la Universidad de Almería. Esta versión sirve como referencia antes de la entrega final al grupo de investigación de la universidad.
