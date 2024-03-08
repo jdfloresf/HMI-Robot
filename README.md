@@ -32,4 +32,6 @@ Para utilizar esta versión de la interfaz de usuario, asegúrate de estar en un
 
 [Tutorial PyQt5](https://www.pythonguis.com/pyqt5-tutorial/): Recursos para aprender más sobre PyQt5.
 
-[Qt for Python Documentation](https://doc.qt.io/qtforpython-5/contents.html): Documentación oficial de PySide2.
+[Qt for Python Documentation](https://doc.qt.io/qtforpython-5/contents.html): Documenatción oficial para aprender Qt con Python
+
+[Documentación de PySide2](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/index.html) Documentación oficial de PySide2.
